@@ -16,8 +16,8 @@ dotenv.config("./.env")
 const app = express();
 
 app.use(cors({
-    origin: '*', // your React app
-    // credentials: true // 👈 this allows cookies to be sent
+    origin: 'https://url-shortener-rust-xi.vercel.app', // your React app
+    credentials: true // 👈 this allows cookies to be sent
 }));
 
 app.use(express.json())
