@@ -17,7 +17,7 @@ const app = express();
 
 app.use(cors({
     origin: '*', // your React app
-    credentials: true // 👈 this allows cookies to be sent
+    // credentials: true // 👈 this allows cookies to be sent
 }));
 
 app.use(express.json())
